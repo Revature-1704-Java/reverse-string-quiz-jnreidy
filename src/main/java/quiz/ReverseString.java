@@ -3,7 +3,7 @@ package quiz;
 import java.lang.StringBuilder;
 
 public class ReverseString {
-	//using recursion base case string length <= 2 swap the last two build it up from there
+	//using recursion base case string length <= 1 build up end as recurse down then build up beginning
     public String reverse(String input) {
        // return new StringBuffer(input).reverse().toString();
     		String str = "";
